@@ -26,14 +26,10 @@
         "expo-build-properties",
         {
           "android": {
-            "newArchEnabled": false,
-            "enableProguardInReleaseBuilds": true,
-            "enableShrinkResourcesInReleaseBuilds": true
-          },
-          "ios": {}
+            "newArchEnabled": false
+          }
         }
-      ],
-      "./plugins/withAndroidBuildGradle.js"
+      ]
     ],
     "web": {
       "bundler": "metro"
