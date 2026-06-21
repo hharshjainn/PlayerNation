@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "PlayerNation",
+    "slug": "playernation-match-reports",
+    "scheme": "playernation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.playernation.matchreports"
+    },
+    "android": {
+      "package": "com.playernation.matchreports",
+      "adaptiveIcon": {
+        "backgroundColor": "#CDFC00"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9e0156cd-ae3a-49d2-babe-ac7be8b05cf1"
+      }
+    }
+  }
+}
