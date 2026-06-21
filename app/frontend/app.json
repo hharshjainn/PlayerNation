@@ -7,7 +7,7 @@
     "sdkVersion": "53.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "backgroundColor": "#FFFFFF"
     },
@@ -21,6 +21,16 @@
         "backgroundColor": "#CDFC00"
       }
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "newArchEnabled": false
+          }
+        }
+      ]
+    ],
     "web": {
       "bundler": "metro"
     },
